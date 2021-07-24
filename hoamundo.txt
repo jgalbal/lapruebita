@@ -1,4 +1,38 @@
-hoa hoa aohaoahjo
+
+en carpeta creado para github, click derecho y seleccionar git bash here
+git ini
+git config --global init.defaultBranch main
+borrar la careta creada (con el get ini debe salir  main)
+git ini
+git config --list
+git config --global user.name "tu nombre"
+git config --global user.email tu@correo.com
 
 
 git remote add origin https://github.com/jgalbal/lapruebita.git
+
+1. viene del github
+git remote add origin https://github.com/jgalbal/lapruebita.git
+
+
+
+
+2. es para ver el estado actual de los archivos que tienes 
+yaa el texto sale en rojo 
+
+git status
+
+
+3. quiere decir q esta en tu carpeta de proyecto pero no lo agregaste 
+para que git escuche los cambios:
+
+git add .git add .
+
+4. 
+git status
+
+5. 
+git commit -m "primer commit"
+
+6. viene del github ( iniciar sesion si es qu esolicita)
+git push -u origin main
